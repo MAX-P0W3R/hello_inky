@@ -1,4 +1,4 @@
-#!/usr/bin python
+#!/usr/bin/env python
 
 from inky import InkyPHAT
 from PIL import Image, ImageFont, ImageDraw
