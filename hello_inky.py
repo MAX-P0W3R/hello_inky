@@ -1,3 +1,5 @@
+#!/usr/bin python
+
 from inky import InkyPHAT
 from PIL import Image, ImageFont, ImageDraw
 from font_fredoka_one import FredokaOne
@@ -10,7 +12,7 @@ draw = ImageDraw.Draw(img)
 
 font = ImageFont.truetype(FredokaOne, 22)
 
-message = "Hello, World!"
+message = "Hello, Friend..."
 w, h = font.getsize(message)
 x = (inky_display.WIDTH / 2) - (w / 2)
 y = (inky_display.HEIGHT / 2) - (h / 2)
